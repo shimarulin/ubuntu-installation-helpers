@@ -1,0 +1,17 @@
+user::rwx
+user:www-data:rwx
+user:username:rwx
+group::r-x
+group:www-data:r-x
+group:username:r-x
+mask::rwx
+other::---
+default:user::rwx
+default:user:www-data:rwx
+default:user:username:rwx
+default:group::r-x
+default:group:www-data:r-x
+default:group:username:r-x
+default:mask::rwx
+default:other::---
+
