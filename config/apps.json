@@ -36,15 +36,15 @@
         "ppa": "ppa:atareao/sunflower"
     },
     {
-        "app": "",
-        "description": "",
-        "packages": "",
-        "ppa": ""
+        "app": "VLC",
+        "description": "VLC player daily build",
+        "packages": "vlc",
+        "ppa": "ppa:videolan/master-daily"
     },
     {
-        "app": "",
-        "description": "",
-        "packages": "",
-        "ppa": ""
+        "app": "Skype wrapper",
+        "description": "Skype wrapper for Unity",
+        "packages": "skype-wrapper python-skype",
+        "ppa": "ppa:skype-wrapper/ppa"
     }
 ]
