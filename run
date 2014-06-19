@@ -1,0 +1,4 @@
+#!/bin/bash
+bash add-ppas.sh
+bash install-packages.sh
+
