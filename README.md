@@ -10,3 +10,7 @@ Simple scripts to make installation a bit easier of some applications
 Before used this scripts make:
 
     sudo apt-get install -y jq
+    
+Parser example:
+
+    cat ./config/apps.json | jq ".[] | .app"

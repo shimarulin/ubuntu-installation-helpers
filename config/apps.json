@@ -1,48 +1,56 @@
 [
     {
         "app": "Geary",
+        "name": "geary",
         "description": "Почтовый клиент",
         "packages": "geary",
         "ppa": "ppa:yorba/daily-builds"
     },
     {
         "app": "Nemo",
+        "name": "nemo",
         "description": "Файловый менеджер",
         "packages": "nemo nemo-fileroller",
         "ppa": "ppa:noobslab/mint"
     },
     {
         "app": "Java Ayatana",
+        "name": "jayatana",
         "description": "Интеграция с глобальным меню Unity для Java Swing приложений",
         "packages": "jayatana",
         "ppa": "ppa:danjaredg/jayatana"
     },
     {
         "app": "Java Installers",
+        "name": "oracle-java",
         "description": "Инсталляторы для Oracle Java",
         "packages": "oracle-java7-installer oracle-java8-installer",
         "ppa": "ppa:webupd8team/java"
     },
     {
         "app": "Wine",
+        "name": "wine",
         "description": "Wine Team PPA ",
         "packages": "wine1.7 winetricks",
         "ppa": "ppa:ubuntu-wine/ppa"
     },
     {
         "app": "Sunflower",
+        "name": "sunflower",
         "description": "Sunflower file manager",
         "packages": "sunflower python-vte",
         "ppa": "ppa:atareao/sunflower"
     },
     {
         "app": "VLC",
+        "name": "vlc-daily",
         "description": "VLC player daily build",
         "packages": "vlc",
         "ppa": "ppa:videolan/master-daily"
     },
     {
         "app": "Skype wrapper",
+        "name": "skype-wrapper",
         "description": "Skype wrapper for Unity",
         "packages": "skype-wrapper python-skype",
         "ppa": "ppa:skype-wrapper/ppa"
