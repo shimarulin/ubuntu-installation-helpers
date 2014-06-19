@@ -1,0 +1,50 @@
+[
+    {
+        "app": "Geary",
+        "description": "Почтовый клиент",
+        "packages": "geary",
+        "ppa": "ppa:yorba/daily-builds"
+    },
+    {
+        "app": "Nemo",
+        "description": "Файловый менеджер",
+        "packages": "nemo nemo-fileroller",
+        "ppa": "ppa:noobslab/mint"
+    },
+    {
+        "app": "Java Ayatana",
+        "description": "Интеграция с глобальным меню Unity для Java Swing приложений",
+        "packages": "jayatana",
+        "ppa": "ppa:danjaredg/jayatana"
+    },
+    {
+        "app": "Java Installers",
+        "description": "Инсталляторы для Oracle Java",
+        "packages": "oracle-java7-installer oracle-java8-installer",
+        "ppa": "ppa:webupd8team/java"
+    },
+    {
+        "app": "Wine",
+        "description": "Wine Team PPA ",
+        "packages": "wine",
+        "ppa": "ppa:ubuntu-wine/ppa"
+    },
+    {
+        "app": "Sunflower",
+        "description": "Sunflower file manager",
+        "packages": "sunflower python-vte",
+        "ppa": "ppa:atareao/sunflower"
+    },
+    {
+        "app": "",
+        "description": "",
+        "packages": "",
+        "ppa": ""
+    },
+    {
+        "app": "",
+        "description": "",
+        "packages": "",
+        "ppa": ""
+    }
+]
