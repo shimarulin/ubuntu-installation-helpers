@@ -26,7 +26,7 @@
     {
         "app": "Wine",
         "description": "Wine Team PPA ",
-        "packages": "wine",
+        "packages": "wine1.7 winetricks",
         "ppa": "ppa:ubuntu-wine/ppa"
     },
     {
