@@ -1,6 +1,4 @@
-Ubuntu installation helpers
+Ubuntu helpers documentation
 ===========================
 
-    Note: 
-
-[index](https://github.com/shimarulin/ubuntu-installation-helpers/blob/master/doc/index.md)
+[Tweaks](https://github.com/shimarulin/ubuntu-installation-helpers/blob/master/doc/tweaks.md)
