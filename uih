@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [[ "$1" == "i" || "$1" == "install" ]]; then
-    if [[ "$2" == "l" || "$2" == "list" ]]; then
+    if [[ "$2" == "l" || "$2" == "list" || "$2" == "pkglist" ]]; then
         command=list
     else
         command=package
