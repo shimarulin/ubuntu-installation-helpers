@@ -1,0 +1,15 @@
+#!/bin/bash
+
+if [[ "$1" == "i" || "$1" == "install" ]]; then
+    if [[ "$2" == "l" || "$2" == "list" ]]; then
+        command=list
+    else
+        command=package
+    fi
+elif [[ "$1" == "a" || "$1" == "add" ]]; then
+    command=add
+else
+    command=help
+fi
+
+echo ${command}
