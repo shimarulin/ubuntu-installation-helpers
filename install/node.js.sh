@@ -7,3 +7,4 @@ mkdir ${npm_tmp}
 sleep 0.05s # Hack
 bash ../helpers/add-permissions.sh ${npm_tmp}
 npm config set tmp ${npm_tmp}
+sudo ln -s '/usr/bin/nodejs' '/usr/local/bin/node'
