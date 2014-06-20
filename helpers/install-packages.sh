@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PACKAGES="./config/packages";
+PACKAGES="../config/packages";
 declare -a packages;
 packages=( `cat "$PACKAGES"`);
 

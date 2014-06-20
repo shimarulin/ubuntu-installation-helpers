@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PPAS="./config/ppas";
+PPAS="../config/ppas";
 declare -a repositories;
 repositories=( `cat "$PPAS"`);
 
