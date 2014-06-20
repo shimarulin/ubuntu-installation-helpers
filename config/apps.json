@@ -1,58 +1,93 @@
 [
     {
-        "app": "Geary",
-        "name": "geary",
+        "app": "geary",
+        "name": "Geary",
         "description": "Почтовый клиент",
         "packages": "geary",
         "ppa": "ppa:yorba/daily-builds"
     },
     {
-        "app": "Nemo",
-        "name": "nemo",
+        "app": "nemo",
+        "name": "Nemo",
         "description": "Файловый менеджер",
         "packages": "nemo nemo-fileroller",
         "ppa": "ppa:noobslab/mint"
     },
     {
-        "app": "Java Ayatana",
-        "name": "jayatana",
+        "app": "jayatana",
+        "name": "Java Ayatana",
         "description": "Интеграция с глобальным меню Unity для Java Swing приложений",
         "packages": "jayatana",
         "ppa": "ppa:danjaredg/jayatana"
     },
     {
-        "app": "Java Installers",
-        "name": "oracle-java",
-        "description": "Инсталляторы для Oracle Java",
-        "packages": "oracle-java7-installer oracle-java8-installer",
+        "app": "oracle-java7-installer",
+        "name": "Oracle Java 7 Installer",
+        "description": "Инсталлятор для Oracle Java 7",
+        "packages": "oracle-java7-installer",
         "ppa": "ppa:webupd8team/java"
     },
     {
-        "app": "Wine",
-        "name": "wine",
-        "description": "Wine Team PPA ",
+        "app": "oracle-java8-installer",
+        "name": "Oracle Java 8 Installer",
+        "description": "Инсталляторы для Oracle Java 8",
+        "packages": "oracle-java8-installer",
+        "ppa": "ppa:webupd8team/java"
+    },
+    {
+        "app": "wine",
+        "name": "Wine",
+        "description": "Wine Team PPA",
         "packages": "wine1.7 winetricks",
         "ppa": "ppa:ubuntu-wine/ppa"
     },
     {
-        "app": "Sunflower",
-        "name": "sunflower",
+        "app": "sunflower",
+        "name": "Sunflower",
         "description": "Sunflower file manager",
         "packages": "sunflower python-vte",
         "ppa": "ppa:atareao/sunflower"
     },
     {
-        "app": "VLC",
-        "name": "vlc-daily",
+        "app": "vlc-daily",
+        "name": "VLC",
         "description": "VLC player daily build",
         "packages": "vlc",
         "ppa": "ppa:videolan/master-daily"
     },
     {
-        "app": "Skype wrapper",
-        "name": "skype-wrapper",
+        "app": "skype-wrapper",
+        "name": "Skype-wrapper",
         "description": "Skype wrapper for Unity",
         "packages": "skype-wrapper python-skype",
         "ppa": "ppa:skype-wrapper/ppa"
+    },
+    {
+        "app": "focuswriter",
+        "name": "Focuswriter",
+        "description": "Focuswriter — это полноэкранный текстовый редактор, сделанный так, чтобы устранить факторы, отвлекающие внимание пользователя от набора.",
+        "packages": "focuswriter",
+        "ppa": "ppa:gottcode/gcppa"
+    },
+    {
+        "app": "everpad",
+        "name": "Everpad",
+        "description": "Evernote client well integrated with linux desktop",
+        "packages": "everpad",
+        "ppa": "ppa:nvbn-rm/ppa"
+    },
+    {
+        "app": "nodejs",
+        "name": "Node.js",
+        "description": "Node.js is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications",
+        "packages": "python-software-properties python g++ make nodejs",
+        "ppa": "ppa:chris-lea/node.js"
+    },
+    {
+        "app": "",
+        "name": "",
+        "description": "",
+        "packages": "",
+        "ppa": ""
     }
 ]
