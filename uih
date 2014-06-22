@@ -7,7 +7,7 @@ if [[ "$1" == "i" || "$1" == "install" ]]; then
         command=package
     fi
 elif [[ "$1" == "a" || "$1" == "add" ]]; then
-    command=add
+    bash "./helpers/add-ppa" "$2"
 else
     command=help
 fi

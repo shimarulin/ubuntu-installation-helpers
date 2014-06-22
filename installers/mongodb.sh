@@ -4,11 +4,13 @@ echo "deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen" | 
 sudo apt-get update
 sudo apt-get install -y mongodb-org
 
+sudo mkdir -p /var/lib/mongodb
+sudo chown -R mongodb:mongodb /var/lib/mongodb
+sudo service mongod start
+
 echo "*********************************************************************
- WARNING: Default dbpath (/data/db/) does not exist.
- Create this directory or give existing directory in --dbpath
- or configure MongoDB. The package configures MongoDB using
- the /etc/mongod.conf file in conjunction with the control scripts.
- See http://dochub.mongodb.org/core/startingandstoppingmongo and
+ The package configures MongoDB using the /etc/mongod.conf file
+ in conjunction with the control scripts. See
+ http://dochub.mongodb.org/core/startingandstoppingmongo and
  http://docs.mongodb.org/manual/reference/configuration-options/#storage.dbPath"
 echo "*********************************************************************"
