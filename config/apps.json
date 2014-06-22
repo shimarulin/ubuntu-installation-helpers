@@ -77,7 +77,7 @@
         "ppa": "ppa:nvbn-rm/ppa"
     },
     {
-        "app": "nodejs",
+        "app": "nodejs-current",
         "name": "Node.js",
         "description": "Node.js is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications",
         "packages": "python-software-properties python g++ make nodejs",
